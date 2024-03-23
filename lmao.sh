@@ -13,6 +13,5 @@ sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b ~/.inject/bi
 # LOADING
 alias l='ls'
 alias lsa='ls -a'
-alias lmao='bash .injectHomedir.sh'
+alias up='cd ../'
 alias task='~/.inject/bin/task'
-unalias lmao
